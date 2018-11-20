@@ -24,95 +24,9 @@
 	
   <dependencies>
     <dependency>
-  		<groupId>org.apache.myfaces.core</groupId>
-  		<artifactId>myfaces-api</artifactId>
-  		<version>2.1.4</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.apache.cxf</groupId>
-  		<artifactId>cxf-rt-frontend-jaxws</artifactId>
-  		<version>2.6.1</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.opencms</groupId>
-  		<artifactId>opencms-core</artifactId>
-  		<version>8.5.1</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.apache.camel</groupId>
-  		<artifactId>camel-core</artifactId>
-  		<version>2.11.3</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.apache.hive</groupId>
-  		<artifactId>hive-exec</artifactId>
-  		<version>0.13.0</version>
-  	</dependency>
-
-  	<dependency>
-  		<groupId>org.apache.wicket</groupId>
-  		<artifactId>wicket-core</artifactId>
-  		<version>1.5.12</version>
-  	</dependency>
-
-  	<dependency>
-  		<groupId>org.elasticsearch</groupId>
-  		<artifactId>elasticsearch</artifactId>
-  		<version>1.4.4</version>
-  	</dependency>
-
-
-  	<dependency>
-  		<groupId>org.apache.tika</groupId>
-  		<artifactId>tika-core</artifactId>
-  		<version>1.13</version>
-  	</dependency>
-
-  	<dependency>
-  		<groupId>org.apache.struts</groupId>
-  		<artifactId>struts2-core</artifactId>
-  		<version>2.2.3</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.apache.solr</groupId>
-  		<artifactId>solr-solrj</artifactId>
-  		<version>4.10.2</version>
-  	</dependency>
-
-
-  	<dependency>
-  		<groupId>org.apache.geode</groupId>
-  		<artifactId>geode-junit</artifactId>
-  		<version>1.4.0</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.apache.poi</groupId>
-  		<artifactId>poi</artifactId>
-  		<version>3.14</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.onosproject</groupId>
-  		<artifactId>onos-api</artifactId>
-  		<version>1.13.1</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.apache.storm</groupId>
-  		<artifactId>storm-core</artifactId>
-  		<version>1.2.1</version>
-  	</dependency>
-
-  	<dependency>
-  		<groupId>com.fasterxml.jackson.core</groupId>
-  		<artifactId>jackson-databind</artifactId>
-  		<version>2.6.7</version>
-  	</dependency>
-	  
-<!-- new dependency -->
-	  
-  	<dependency>
-  		<groupId>com.oracle.java</groupId>
-  		<artifactId>jre</artifactId>
-  		<version>1.7.0_67</version>
-  	</dependency>
+    <groupId>org.springframework.integration</groupId>
+    <artifactId>spring-integration-zip</artifactId>
+    <version>1.0.0.RELEASE</version>
+</dependency>
   </dependencies>
 </project>
