@@ -21,7 +21,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-	
+
   <dependencies>
   	<dependency>
   		<groupId>org.apache.myfaces.core</groupId>
@@ -106,8 +106,8 @@
   		<artifactId>jackson-databind</artifactId>
   		<version>2.6.7</version>
   	</dependency>
-	
-	
+
+
 <!-- from the back start-->
 <!-- from the back start-->
 
@@ -123,14 +123,12 @@
   		<artifactId>postgresql</artifactId>
   		<version>42.2.4</version>
   	</dependency>
-	
-	
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot</artifactId>
 		<version>1.0.0.RELEASE</version>
 	</dependency>
-	
+
 	<!-- https://mvnrepository.com/artifact/org.apache.atlas/atlas-typesystem -->
 	<dependency>
 		<groupId>org.apache.atlas</groupId>
@@ -169,7 +167,7 @@
 		<scope>provided</scope>
 	</dependency>
 
-	
+
 	<!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
 	<dependency>
 		<groupId>org.apache.struts</groupId>
@@ -183,14 +181,14 @@
 			<artifactId>vaadin</artifactId>
 		<version>6.0.0</version>
 	</dependency>
-	
+
 	<!-- tomcat repo -->
 	<dependency>
 	  <groupId>org.apache.tomcat</groupId>
 	  <artifactId>catalina</artifactId>
 	  <version>6.0.13</version>
 	</dependency>
-	
+
 	<!-- https://mvnrepository.com/artifact/org.wildfly/wildfly-feature-pack -->
 	<dependency>
 		<groupId>org.wildfly</groupId>
@@ -199,10 +197,10 @@
 		<type>pom</type>
 		<scope>provided</scope>
 	</dependency>
-	
+
 
 	<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/chrome -->
-	
+
 	<!-- https://mvnrepository.com/artifact/org.springframework.amqp/spring-amqp -->
 	<dependency>
 		<groupId>org.springframework.amqp</groupId>
@@ -213,7 +211,3 @@
 
   </dependencies>
 </project>
-
-
-
-
