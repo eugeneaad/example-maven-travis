@@ -124,13 +124,6 @@
   		<version>42.2.4</version>
   	</dependency>
 
-	<!-- not sure about this one -->
-	<dependency>
-  		<groupId>org.netbeans.api</groupId>
-  		<artifactId>org-openide-util</artifactId>
-  		<version>RELEASE69</version>
-  	</dependency>
-
 	<dependency>
 		<groupId>org.apache.atlas</groupId>
 		<artifactId>spring-boot</artifactId>
@@ -252,12 +245,6 @@
 
 	<!-- org.apache.tika is found -->
 
-	<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/chrome -->
-	<dependency>
-		<groupId>com.atlassian.browsers</groupId>
-		<artifactId>chrome</artifactId>
-		<version>48.0.2564.103</version>
-	</dependency>
 
 	<!-- https://mvnrepository.com/artifact/org.springframework.amqp/spring-amqp -->
 	<dependency>
@@ -266,11 +253,6 @@
 		<version>1.0.0.RELEASE</version>
 	</dependency>
 
-	<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/firefox -->
-	<dependency>
-		<groupId>com.atlassian.browsers</groupId>
-		<artifactId>firefox</artifactId>
-		<version>38.0</version>
-	</dependency>
+
   </dependencies>
 </project>
