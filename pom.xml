@@ -202,6 +202,46 @@
 		<artifactId>spring-integration-zip</artifactId>
 		<version>1.0.0.RELEASE</version>
 	</dependency>
+	  
+	<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.2.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-core -->
+<dependency>
+    <groupId>org.apache.activemq</groupId>
+    <artifactId>activemq-core</artifactId>
+    <version>5.7.0</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.github.junrar/junrar -->
+<dependency>
+    <groupId>com.github.junrar</groupId>
+    <artifactId>junrar</artifactId>
+    <version>0.7</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.vertx/vertx-core -->
+<dependency>
+    <groupId>io.vertx</groupId>
+    <artifactId>vertx-core</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.vertx/vertx-web -->
+<dependency>
+    <groupId>io.vertx</groupId>
+    <artifactId>vertx-web</artifactId>
+    <version>3.0.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.glassfish/javax.faces -->
+<dependency>
+    <groupId>org.glassfish</groupId>
+    <artifactId>javax.faces</artifactId>
+    <version>2.3.0</version>
+</dependency>
 
   </dependencies>
 </project>
